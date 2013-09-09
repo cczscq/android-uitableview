@@ -19,6 +19,7 @@ public class UIButton extends LinearLayout {
 	private CharSequence mTitle;
 	private CharSequence mSubtitle;
 	private int mImage;
+    private int mColor;
 	
 	public UIButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
@@ -31,7 +32,7 @@ public class UIButton extends LinearLayout {
 		mTitle = a.getString(R.styleable.UIButton_title);
 		mSubtitle = a.getString(R.styleable.UIButton_subtitle);
 		mImage = a.getResourceId(R.styleable.UIButton_image, -1);
-		
+        mColor = a.getResourceId(R.styleable.UIButton_color, -1);
 		if(mTitle != null) {
 			((TextView) mButtonContainer.findViewById(R.id.title)).setText(mTitle.toString());
 		} else {
@@ -47,6 +48,10 @@ public class UIButton extends LinearLayout {
 		if(mImage > -1) {
 			((ImageView) mButtonContainer.findViewById(R.id.image)).setImageResource(mImage);
 		}
+
+        if(mColor != -1) {
+            ((TextView) mButtonContainer.findViewById(R.id.title)).setTextColor(getResources().getColor(mColor));
+        }
 		
 		mButtonContainer.setOnClickListener( new View.OnClickListener() {
 
