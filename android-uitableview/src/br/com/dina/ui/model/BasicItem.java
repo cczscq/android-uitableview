@@ -7,6 +7,33 @@ public class BasicItem implements IListItem {
 	private String mTitle;
 	private String mSubtitle;
 	private int mColor = -1;
+    private int mRightImage = -1;
+    private String mRightText;
+    private boolean selected = false;
+
+    public void setRightImage(int mRightImage) {
+        this.mRightImage = mRightImage;
+    }
+
+    public int getRightImage(){
+        return mRightImage;
+    }
+
+    public void setRightText(String mRightText){
+        this.mRightText = mRightText;
+    }
+
+    public String getRightText() {
+        return mRightText;
+    }
+
+    public void setSelected(boolean selected) {
+        this.selected = selected;
+    }
+
+    public boolean getSelected(){
+        return selected;
+    }
 	
 
 	public BasicItem(String _title) {

@@ -6,6 +6,7 @@ import java.util.List;
 
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -177,6 +178,30 @@ public class UITableView extends LinearLayout {
         if(item.getColor() > -1) {
             ((TextView) view.findViewById(R.id.title)).setTextColor(item.getColor());
         }
+        if (item.getRightImage() != -1) {
+            ((ImageView) view.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+
+            if (item.getSelected()){
+                ((ImageView) view.findViewById(R.id.chevron)).setImageResource(item.getRightImage());
+            } else {
+                ((ImageView) view.findViewById(R.id.chevron)).setImageResource(item.getRightImage());
+            }
+            Log.e("UITableView", "已设置UITableView右侧图片");
+        } else {
+            ((ImageView) view.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+            Log.e("UITableView", "默认设置UITableView右侧图片");
+        }
+
+        if(item.getRightText() != null) {
+            ((ImageView) view.findViewById(R.id.chevron)).setVisibility(View.GONE);
+            ((TextView) view.findViewById(R.id.itemCount)).setVisibility(View.VISIBLE);
+            ((TextView) view.findViewById(R.id.itemCount)).setText(item.getRightText());
+            Log.e("UITableView", "已设置UITableView右侧文本");
+        } else {
+            ((TextView) view.findViewById(R.id.itemCount)).setVisibility(View.GONE);
+            Log.e("UITableView", "未设置UITableView右侧文本");
+        }
+
         view.setTag(index);
         if(item.isClickable()) {
             view.setOnClickListener( new View.OnClickListener() {
@@ -270,6 +295,15 @@ public class UITableView extends LinearLayout {
      */
     public void removeClickListener() {
         this.mClickListener = null;
+    }
+
+    public void setSelected(int index, boolean selected) {
+        ImageView imageView = (ImageView)(mListContainer.findViewWithTag((Object)(new Integer(index))).findViewById(R.id.chevron));
+        if (selected) {
+            imageView.setImageResource(R.drawable.btn_open);
+        } else {
+            imageView.setImageResource(R.drawable.btn_close);
+        }
     }
 
 }

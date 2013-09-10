@@ -6,6 +6,9 @@
 	    <attr name="subtitle" format="string" />
 	    <attr name="image" format="integer" />
         <attr name="color" format="integer" />
+        <attr name="right_image" format="integer" />
+        <attr name="right_switch" format="integer" />
+        <attr name="right_text" format="string" />
   	</declare-styleable>
   
 </resources>

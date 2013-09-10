@@ -4,6 +4,7 @@ import br.com.dina.ui.R;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,7 +21,10 @@ public class UIButton extends LinearLayout {
 	private CharSequence mSubtitle;
 	private int mImage;
     private int mColor;
-	
+    private int mRightImage;
+    private int mSwitch;
+    private CharSequence mRightText;
+
 	public UIButton(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		this.setClickable(true);
@@ -33,6 +37,9 @@ public class UIButton extends LinearLayout {
 		mSubtitle = a.getString(R.styleable.UIButton_subtitle);
 		mImage = a.getResourceId(R.styleable.UIButton_image, -1);
         mColor = a.getResourceId(R.styleable.UIButton_color, -1);
+        mRightImage = a.getResourceId(R.styleable.UIButton_right_image, -1);
+        mRightText = a.getString(R.styleable.UIButton_right_text);
+        mSwitch  = a.getResourceId(R.styleable.UIButton_right_switch, -1);
 		if(mTitle != null) {
 			((TextView) mButtonContainer.findViewById(R.id.title)).setText(mTitle.toString());
 		} else {
@@ -52,7 +59,34 @@ public class UIButton extends LinearLayout {
         if(mColor != -1) {
             ((TextView) mButtonContainer.findViewById(R.id.title)).setTextColor(getResources().getColor(mColor));
         }
-		
+
+        if (mRightImage != -1) {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setImageResource(mRightImage);
+            Log.e("UIButton", "已设置UIButton右侧图片");
+        } else {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+            Log.e("UIButton", "默认设置UIButton右侧图片");
+        }
+
+        if (mSwitch != -1) {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setImageResource(R.drawable.btn_switch);
+            Log.e("UIButton", "已设置UIButton右侧图片");
+        } else {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
+            Log.e("UIButton", "默认设置UIButton右侧图片");
+        }
+
+        if(mRightText != null) {
+            ((TextView) mButtonContainer.findViewById(R.id.itemCount)).setVisibility(View.VISIBLE);
+            ((TextView) mButtonContainer.findViewById(R.id.itemCount)).setText(mRightText.toString());
+            Log.e("UIButton", "已设置UIButton右侧文本");
+        } else {
+            ((TextView) mButtonContainer.findViewById(R.id.itemCount)).setVisibility(View.GONE);
+            Log.e("UIButton", "未设置UIButton右侧文本");
+        }
+
 		mButtonContainer.setOnClickListener( new View.OnClickListener() {
 
 			@Override
@@ -64,7 +98,16 @@ public class UIButton extends LinearLayout {
 		});
 		
 		addView(mButtonContainer, params);
-	}	
+	}
+
+    public void setRightSelected(boolean selected) {
+        Log.e("UIButton", "UIButton rightSelected = " + selected);
+        if (selected) {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setImageResource(R.drawable.btn_open);
+        } else {
+            ((ImageView) mButtonContainer.findViewById(R.id.chevron)).setImageResource(R.drawable.btn_close);
+        }
+    }
 	
 	public interface ClickListener {		
 		void onClick(View view);		
