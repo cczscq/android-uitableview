@@ -18,6 +18,7 @@
         <attr name="right_image" format="integer" />
         <attr name="right_switch" format="integer" />
         <attr name="right_text" format="string" />
+        <attr name="center_text" format="string" />
     </declare-styleable>
     <!-- From: file:/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/dimen.xml -->
     <dimen name="default_height">30dp</dimen>
@@ -35,6 +36,7 @@
         <item name="android:textColor">#ff8295bf</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="android:layout_marginRight">8.0dip</item>
     </style>
 
@@ -75,10 +77,11 @@
     </style>
 
     <style name="list_item_chevron">
-        <item name="android:paddingLeft">4.0dip</item>
-        <item name="android:paddingTop">2.0dip</item>
-        <item name="android:paddingRight">4.0dip</item>
-        <item name="android:paddingBottom">2.0dip</item>
+
+        <!-- <item name="android:paddingLeft">4.0dip</item> -->
+        <!-- <item name="android:paddingTop">2.0dip</item> -->
+        <!-- <item name="android:paddingRight">4.0dip</item> -->
+        <!-- <item name="android:paddingBottom">2.0dip</item> -->
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:src">@drawable/chevron</item>

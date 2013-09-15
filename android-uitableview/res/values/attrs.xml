@@ -9,6 +9,7 @@
         <attr name="right_image" format="integer" />
         <attr name="right_switch" format="integer" />
         <attr name="right_text" format="string" />
+        <attr name="center_text" format="string" />
   	</declare-styleable>
   
 </resources>

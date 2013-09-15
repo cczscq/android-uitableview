@@ -2,8 +2,8 @@
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
 1378544737000 642 f59b28735f6531e900ff5a1704d016448febe7fa /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/activity/UITableViewActivity.java
-1378914759000 9836 f83fc7e9daaad84606e0f698fab3d00bd8d1d928 /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/widget/UITableView.java
-1379077367000 4816 bb796899522751c55fbb1fe4735cad137204f66f /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/widget/UIButton.java
+1379257623000 8624 5df47ba707ebcb3c5e23e6fe03283a61499f80f1 /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/widget/UITableView.java
+1379256655000 5096 602a50c302552dbefa70d8b7977eac677a002ce3 /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/widget/UIButton.java
 1378544737000 144 19eebd8a104d48303b7994618bdece5f9dd77d0f /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/model/IListItem.java
 1378544737000 431 aa12fef5c4cebc65bdb529592c2349c7af52d81a /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/model/ViewItem.java
-1378818750000 2288 c01c7341b716613db4fc931ca59432d9178e440e /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/model/BasicItem.java
+1379257594000 2316 02bcb8ed19c0067263fcd1f10da9513e8f8abdc8 /Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/br/com/dina/ui/model/BasicItem.java

@@ -9,6 +9,14 @@ package br.com.dina.ui;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int center_text=0x7f010007;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -147,6 +155,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #UIButton_center_text br.com.dina.ui:center_text}</code></td><td></td></tr>
            <tr><td><code>{@link #UIButton_color br.com.dina.ui:color}</code></td><td></td></tr>
            <tr><td><code>{@link #UIButton_image br.com.dina.ui:image}</code></td><td></td></tr>
            <tr><td><code>{@link #UIButton_right_image br.com.dina.ui:right_image}</code></td><td></td></tr>
@@ -155,6 +164,7 @@ containing a value of this type.
            <tr><td><code>{@link #UIButton_subtitle br.com.dina.ui:subtitle}</code></td><td></td></tr>
            <tr><td><code>{@link #UIButton_title br.com.dina.ui:title}</code></td><td></td></tr>
            </table>
+           @see #UIButton_center_text
            @see #UIButton_color
            @see #UIButton_image
            @see #UIButton_right_image
@@ -165,8 +175,22 @@ containing a value of this type.
          */
         public static final int[] UIButton = {
             0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007
         };
+        /**
+          <p>This symbol is the offset where the {@link br.com.dina.ui.R.attr#center_text}
+          attribute's value can be found in the {@link #UIButton} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name br.com.dina.ui:center_text
+        */
+        public static final int UIButton_center_text = 7;
         /**
           <p>This symbol is the offset where the {@link br.com.dina.ui.R.attr#color}
           attribute's value can be found in the {@link #UIButton} array.

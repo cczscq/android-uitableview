@@ -1,115 +1,115 @@
 package br.com.dina.ui.model;
 
 public class BasicItem implements IListItem {
-	
-	private boolean mClickable = true;
-	private int mDrawable = -1;
-	private String mTitle;
-	private String mSubtitle;
-	private int mColor = -1;
-    private int mRightImage = -1;
-    private String mRightText;
-    private boolean selected = false;
 
-    public void setRightImage(int mRightImage) {
-        this.mRightImage = mRightImage;
-    }
+  private boolean mClickable = true;
+  private int mDrawable = -1;
+  private String mTitle;
+  private String mSubtitle;
+  private int mColor = -1;
+  private int mRightImage = -1;
+  private String mRightText;
+  private boolean selected = false;
 
-    public int getRightImage(){
-        return mRightImage;
-    }
+  public void setRightImage(int mRightImage) {
+    this.mRightImage = mRightImage;
+  }
 
-    public void setRightText(String mRightText){
-        this.mRightText = mRightText;
-    }
+  public int getRightImage() {
+    return mRightImage;
+  }
 
-    public String getRightText() {
-        return mRightText;
-    }
+  public void setRightText(String mRightText) {
+    this.mRightText = mRightText;
+  }
 
-    public void setSelected(boolean selected) {
-        this.selected = selected;
-    }
+  public String getRightText() {
+    return mRightText;
+  }
 
-    public boolean getSelected(){
-        return selected;
-    }
-	
+  public void setSelected(boolean selected) {
+    this.selected = selected;
+  }
 
-	public BasicItem(String _title) {
-		this.mTitle = _title;
-	}
-	
-	public BasicItem(String _title, String _subtitle) {
-		this.mTitle = _title;
-		this.mSubtitle = _subtitle;
-	}
-	
-	public BasicItem(String _title, String _subtitle, int _color) {
-		this.mTitle = _title;
-		this.mSubtitle = _subtitle;
-		this.mColor = _color;
-	}
-	
-	public BasicItem(String _title, String _subtitle, boolean _clickable) {
-		this.mTitle = _title;
-		this.mSubtitle = _subtitle;
-		this.mClickable = _clickable;
-	}	
-	
-	public BasicItem(int _drawable, String _title, String _subtitle) {
-		this.mDrawable = _drawable;
-		this.mTitle = _title;
-		this.mSubtitle = _subtitle;
-	}
-	
-	public BasicItem(int _drawable, String _title, String _subtitle, int _color) {
-		this.mDrawable = _drawable;
-		this.mTitle = _title;
-		this.mSubtitle = _subtitle;
-		this.mColor = _color;
-	}
+  public boolean getSelected() {
+    return selected;
+  }
 
-	public int getDrawable() {
-		return mDrawable;
-	}
 
-	public void setDrawable(int drawable) {
-		this.mDrawable = drawable;
-	}
+  public BasicItem(String _title) {
+    this.mTitle = _title;
+  }
 
-	public String getTitle() {
-		return mTitle;
-	}
+  public BasicItem(String _title, String _subtitle) {
+    this.mTitle = _title;
+    this.mSubtitle = _subtitle;
+  }
 
-	public void setTitle(String title) {
-		this.mTitle = title;
-	}
+  public BasicItem(String _title, String _subtitle, int _color) {
+    this.mTitle = _title;
+    this.mSubtitle = _subtitle;
+    this.mColor = _color;
+  }
 
-	public String getSubtitle() {
-		return mSubtitle;
-	}
+  public BasicItem(String _title, String _subtitle, boolean _clickable) {
+    this.mTitle = _title;
+    this.mSubtitle = _subtitle;
+    this.mClickable = _clickable;
+  }
 
-	public void setSubtitle(String summary) {
-		this.mSubtitle = summary;
-	}
+  public BasicItem(int _drawable, String _title, String _subtitle) {
+    this.mDrawable = _drawable;
+    this.mTitle = _title;
+    this.mSubtitle = _subtitle;
+  }
 
-	public int getColor() {
-		return mColor;
-	}
+  public BasicItem(int _drawable, String _title, String _subtitle, int _color) {
+    this.mDrawable = _drawable;
+    this.mTitle = _title;
+    this.mSubtitle = _subtitle;
+    this.mColor = _color;
+  }
 
-	public void setColor(int mColor) {
-		this.mColor = mColor;
-	}
+  public int getDrawable() {
+    return mDrawable;
+  }
 
-	@Override
-	public boolean isClickable() {
-		return mClickable;
-	}
+  public void setDrawable(int drawable) {
+    this.mDrawable = drawable;
+  }
 
-	@Override
-	public void setClickable(boolean clickable) {
-		mClickable = clickable;			
-	}
-	
+  public String getTitle() {
+    return mTitle;
+  }
+
+  public void setTitle(String title) {
+    this.mTitle = title;
+  }
+
+  public String getSubtitle() {
+    return mSubtitle;
+  }
+
+  public void setSubtitle(String summary) {
+    this.mSubtitle = summary;
+  }
+
+  public int getColor() {
+    return mColor;
+  }
+
+  public void setColor(int mColor) {
+    this.mColor = mColor;
+  }
+
+  @Override
+  public boolean isClickable() {
+    return mClickable;
+  }
+
+  @Override
+  public void setClickable(boolean clickable) {
+    mClickable = clickable;
+  }
+
 }

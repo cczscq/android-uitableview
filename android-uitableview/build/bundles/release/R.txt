@@ -1,3 +1,4 @@
+int attr center_text 0x7f010007
 int attr color 0x7f010003
 int attr image 0x7f010002
 int attr right_image 0x7f010004
@@ -57,7 +58,8 @@ int style list_item_chevron 0x7f070006
 int style list_item_middle 0x7f070007
 int style list_item_single 0x7f070008
 int style list_item_top 0x7f070009
-int[] styleable UIButton { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006 }
+int[] styleable UIButton { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007 }
+int styleable UIButton_center_text 7
 int styleable UIButton_color 3
 int styleable UIButton_image 2
 int styleable UIButton_right_image 4

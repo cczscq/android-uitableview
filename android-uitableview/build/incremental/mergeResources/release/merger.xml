@@ -198,6 +198,9 @@
                     <attr
                         name="right_text"
                         format="string" />
+                    <attr
+                        name="center_text"
+                        format="string" />
                 </declare-styleable>
             </file>
             <file
@@ -342,18 +345,11 @@ center_vertical
                 </style>
 
                 <style name="list_item_chevron" >
-                    <item name="android:paddingLeft">
-4.0dip
-                    </item>
-                    <item name="android:paddingTop">
-2.0dip
-                    </item>
-                    <item name="android:paddingRight">
-4.0dip
-                    </item>
-                    <item name="android:paddingBottom">
-2.0dip
-                    </item>
+
+                    <!-- <item name="android:paddingLeft">4.0dip</item> -->
+                    <!-- <item name="android:paddingTop">2.0dip</item> -->
+                    <!-- <item name="android:paddingRight">4.0dip</item> -->
+                    <!-- <item name="android:paddingBottom">2.0dip</item> -->
                     <item name="android:layout_width">
 wrap_content
                     </item>
@@ -434,6 +430,9 @@ wrap_content
                     </item>
                     <item name="android:layout_height">
 wrap_content
+                    </item>
+                    <item name="android:gravity">
+center_vertical
                     </item>
                     <item name="android:layout_marginRight">
 8.0dip
