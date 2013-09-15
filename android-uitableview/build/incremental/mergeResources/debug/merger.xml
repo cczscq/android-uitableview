@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res" >
+            <file
+                name="text_color_selector"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/color/text_color_selector.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="background_view_rounded_bottom"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/background_view_rounded_bottom.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_view_rounded_container"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/background_view_rounded_container.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_view_rounded_middle"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/background_view_rounded_middle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_view_rounded_single"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/background_view_rounded_single.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="background_view_rounded_top"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/background_view_rounded_top.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_switch"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/btn_switch.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="button_text_color"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/button_text_color.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="chevron"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/chevron.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="chevron_default"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-320dpi/chevron_default.png"
+                qualifiers="320dpi"
+                type="drawable" />
+            <file
+                name="chevron_default_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-320dpi/chevron_default_down.png"
+                qualifiers="320dpi"
+                type="drawable" />
+            <file
+                name="chevron_white"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-320dpi/chevron_white.png"
+                qualifiers="320dpi"
+                type="drawable" />
+            <file
+                name="chevron_white_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-320dpi/chevron_white_down.png"
+                qualifiers="320dpi"
+                type="drawable" />
+            <file
+                name="btn_close"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/btn_close.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="btn_open"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/btn_open.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="chevron_default"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/chevron_default.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="chevron_default_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/chevron_default_down.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="chevron_white"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/chevron_white.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="chevron_white_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-hdpi/chevron_white_down.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="chevron_default"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-ldpi/chevron_default.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="chevron_default_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-ldpi/chevron_default_down.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="chevron_white"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-ldpi/chevron_white.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="chevron_white_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-ldpi/chevron_white_down.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="chevron_default"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-mdpi/chevron_default.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="chevron_default_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-mdpi/chevron_default_down.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="chevron_white"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-mdpi/chevron_white.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="chevron_white_down"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable-mdpi/chevron_white_down.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="list_container"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/list_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_bottom"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/list_item_bottom.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_middle"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/list_item_middle.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_single"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/list_item_single.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_top"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/list_item_top.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="uitableview_activity"
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/layout/uitableview_activity.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="UIButton" >
+                    <attr
+                        name="title"
+                        format="string" />
+                    <attr
+                        name="subtitle"
+                        format="string" />
+                    <attr
+                        name="image"
+                        format="integer" />
+                    <attr
+                        name="color"
+                        format="integer" />
+                    <attr
+                        name="right_image"
+                        format="integer" />
+                    <attr
+                        name="right_switch"
+                        format="integer" />
+                    <attr
+                        name="right_text"
+                        format="string" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/colors.xml"
+                qualifiers="" >
+                <color name="base_end_color_pressed" >#ff2570ba
+                </color>
+                <color name="base_start_color_pressed" >#ff3590c4
+                </color>
+                <color name="text_color_default" >#000000
+                </color>
+                <color name="text_color_pressed" >#ffffff
+                </color>
+                <color name="base_start_color_default" >#FFFFFF
+                </color>
+                <color name="base_end_color_default" >#FFFFFF
+                </color>
+                <color name="rounded_container_border" >#ffb7babb
+                </color>
+            </file>
+            <file
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/dimen.xml"
+                qualifiers="" >
+                <dimen name="default_height" >30dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Android-uitableview
+                </string>
+                <string name="hello" >Hello World!
+                </string>
+            </file>
+            <file
+                path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="list_item_middle" >
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:paddingTop">
+10dip
+                    </item>
+                    <item name="android:paddingBottom">
+10dip
+                    </item>
+                    <item name="android:paddingLeft">
+10dip
+                    </item>
+                    <item name="android:paddingRight">
+10dip
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/background_view_rounded_middle
+                    </item>
+                </style>
+
+                <style name="content_page_small_text" >
+                    <item name="android:duplicateParentState">
+true
+                    </item>
+                    <item name="android:textSize">
+12sp
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:textColor">
+@color/text_color_selector
+                    </item>
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+
+                <style name="list_container" >
+                    <item name="android:background">
+@drawable/background_view_rounded_container
+                    </item>
+                </style>
+
+                <style name="list_item_top" >
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:focusable">
+true
+                    </item>
+                    <item name="android:paddingTop">
+10dip
+                    </item>
+                    <item name="android:paddingBottom">
+10dip
+                    </item>
+                    <item name="android:paddingLeft">
+10dip
+                    </item>
+                    <item name="android:paddingRight">
+10dip
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/background_view_rounded_top
+                    </item>
+                </style>
+
+                <style name="list_item_chevron" >
+                    <item name="android:paddingLeft">
+4.0dip
+                    </item>
+                    <item name="android:paddingTop">
+2.0dip
+                    </item>
+                    <item name="android:paddingRight">
+4.0dip
+                    </item>
+                    <item name="android:paddingBottom">
+2.0dip
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:src">
+@drawable/chevron
+                    </item>
+                    <item name="android:duplicateParentState">
+true
+                    </item>
+                </style>
+
+                <style name="list_item_single" >
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:paddingTop">
+10dip
+                    </item>
+                    <item name="android:paddingBottom">
+10dip
+                    </item>
+                    <item name="android:paddingLeft">
+10dip
+                    </item>
+                    <item name="android:paddingRight">
+10dip
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/background_view_rounded_single
+                    </item>
+                </style>
+
+                <style name="content_page_large_text" >
+                    <item name="android:duplicateParentState">
+true
+                    </item>
+                    <item name="android:textSize">
+16sp
+                    </item>
+                    <item name="android:typeface">
+sans
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+@color/text_color_selector
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:singleLine">
+true
+                    </item>
+                </style>
+
+                <style name="list_item_bottom" >
+                    <item name="android:clickable">
+true
+                    </item>
+                    <item name="android:paddingTop">
+10dip
+                    </item>
+                    <item name="android:paddingBottom">
+10dip
+                    </item>
+                    <item name="android:paddingLeft">
+10dip
+                    </item>
+                    <item name="android:paddingRight">
+10dip
+                    </item>
+                    <item name="android:gravity">
+center_vertical
+                    </item>
+                    <item name="android:background">
+@drawable/background_view_rounded_bottom
+                    </item>
+                </style>
+
+                <style name="content_page_large_count_text" >
+                    <item name="android:textSize">
+16sp
+                    </item>
+                    <item name="android:textColor">
+#ff8295bf
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:layout_marginRight">
+8.0dip
+                    </item>
+                </style>
+
+                <style name="UITableView" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+fill_parent
+                    </item>
+                </style>
+            </file>
+        </source>
+        <source path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/src/debug/res" />
+    </dataSet>
+
+</merger>
