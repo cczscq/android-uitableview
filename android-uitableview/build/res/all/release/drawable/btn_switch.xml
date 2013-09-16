@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/btn_close" android:state_selected="false"/>
-    <item android:drawable="@drawable/btn_open" android:state_selected="true"/>
-</selector><!-- From: file:/Users/zhaosc/bitbucket/LoongJoySale/android-uitableview/android-uitableview/res/drawable/btn_switch.xml -->
