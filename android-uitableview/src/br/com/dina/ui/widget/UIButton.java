@@ -34,8 +34,8 @@ public class UIButton extends LinearLayout {
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.UIButton, 0, 0);
-        mTitle = a.getString(R.styleable.UIButton_title);
-        mSubtitle = a.getString(R.styleable.UIButton_subtitle);
+        mTitle = a.getString(R.styleable.UIButton_uibutton_title);
+        mSubtitle = a.getString(R.styleable.UIButton_uibutton_subtitle);
         mImage = a.getResourceId(R.styleable.UIButton_image, -1);
         mColor = a.getResourceId(R.styleable.UIButton_color, -1);
         mRightImage = a.getResourceId(R.styleable.UIButton_right_image, -1);
