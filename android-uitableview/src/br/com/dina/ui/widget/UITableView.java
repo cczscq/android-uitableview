@@ -1,15 +1,13 @@
 package br.com.dina.ui.widget;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
 import android.content.Context;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -17,6 +15,9 @@ import br.com.dina.ui.R;
 import br.com.dina.ui.model.BasicItem;
 import br.com.dina.ui.model.IListItem;
 import br.com.dina.ui.model.ViewItem;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class UITableView extends LinearLayout {
 
@@ -175,20 +176,29 @@ public class UITableView extends LinearLayout {
       } else {
         ((ImageView) view.findViewById(R.id.chevron)).setImageResource(R.drawable.btn_close);
       }
-      Log.e("UITableView", "已设置UITableView右侧图片");
     } else {
       ((ImageView) view.findViewById(R.id.chevron)).setVisibility(View.VISIBLE);
-      Log.e("UITableView", "默认设置UITableView右侧图片");
     }
 
     if (item.getRightText() != null) {
       ((ImageView) view.findViewById(R.id.chevron)).setVisibility(View.GONE);
       ((TextView) view.findViewById(R.id.itemCount)).setVisibility(View.VISIBLE);
       ((TextView) view.findViewById(R.id.itemCount)).setText(item.getRightText());
-      Log.e("UITableView", "已设置UITableView右侧文本");
     } else {
       ((TextView) view.findViewById(R.id.itemCount)).setVisibility(View.GONE);
-      Log.e("UITableView", "未设置UITableView右侧文本");
+    }
+
+    if (item.getItemStatus() != -1){
+      ((Button) view.findViewById(R.id.item_status)).setVisibility(View.VISIBLE);
+      if (item.getItemStatus() != 0){
+        ((Button) view.findViewById(R.id.item_status)).setBackgroundResource(R.drawable.g_unread_messages_bg);
+        ((Button) view.findViewById(R.id.item_status)).setText(String.valueOf(item.getItemStatus()));
+      } else {
+//        ((Button) view.findViewById(R.id.item_status)).setBackgroundResource(R.drawable.unread_messages);
+        ((Button) view.findViewById(R.id.item_status)).setVisibility(View.GONE);
+      }
+    } else {
+      ((Button) view.findViewById(R.id.item_status)).setVisibility(View.GONE);
     }
 
     view.setTag(index);

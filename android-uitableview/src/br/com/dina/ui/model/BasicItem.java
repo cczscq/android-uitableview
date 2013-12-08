@@ -9,6 +9,7 @@ public class BasicItem implements IListItem {
   private int mColor = -1;
   private int mRightImage = -1;
   private String mRightText;
+  private int mItemStatus = -1;
   private boolean selected = false;
 
   public void setRightImage(int mRightImage) {
@@ -25,6 +26,14 @@ public class BasicItem implements IListItem {
 
   public String getRightText() {
     return mRightText;
+  }
+
+  public int getItemStatus() {
+    return mItemStatus;
+  }
+
+  public void setItemStatus(int itemStatus) {
+    mItemStatus = itemStatus;
   }
 
   public void setSelected(boolean selected) {
